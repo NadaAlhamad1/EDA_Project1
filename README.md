@@ -1,28 +1,15 @@
-# EDA_Projects
-Project Proposal 
 
 Background :
-Our dataset is from MTA Turnstile Data.
-First, we need to load this data and convert it to a data frame. Convert dates and time into a string, if any, to make it easier to work with.
-Second, we make sure that the data set is clean from missing data, duplicate data, or anomalies.
-Third, in order to benefit from this work, we must conduct statistical operations and then the resulting perceptions of these operations.
+Here we are the marketing team at the stations. We want to do data analysis to help us lead rental space, whether it's advertising screens, food, and drink machines, stores, or pharmacies, etc...
+We want to know the busiest stations, the times of the crowd, and where there is this crowding when entering or exiting.
+So that we can distribute the rental spaces appropriately..
 
-To take advantage of this process to increase profits in marketing campaigns, distributing advertising screens, distributing machines, stores, etc..
-
-Question : 
-what is the source dataset come from?
-Do we need to load the data from the source and convert it to a data frame?
-Do time and date need to turn this into a time series?
-Is there any missing data?
-Is there any duplicate data?
-Are there outliers?
-What are the statistical operations that can be applied to the data?
-After performing the statistical operations, can the data give us visualizations?
+What are the busiest stations? 
+What is the time of day with the highest traffic per station?
+Where is the most crowded when entering or leaving?
 
 Data Description : 
-
 MTA Dataset : 
-
 Field Description
 C/A: Control Area (A002)
 UNIT: Remote Unit for a station (R051)
@@ -42,7 +29,9 @@ Tools :
 -	SQL
 -	SQLITE
 -	Python 
--	Jupyter notebook 
+-	
+![image](https://user-images.githubusercontent.com/90608912/135822204-7ae305a6-64bc-403c-b0aa-3340f31ad4e4.png)
+ 
 
 
 ![image](https://user-images.githubusercontent.com/90608912/135745664-5c997168-7f51-4652-affc-fac9ec46dfbc.png)
